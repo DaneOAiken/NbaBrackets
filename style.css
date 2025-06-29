@@ -3,22 +3,27 @@ body {
   margin: 20px;
   background: #f4f4f4;
 }
+
 h1 {
   text-align: center;
 }
+
 #conferences {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .conference {
   flex: 1 1 300px;
   max-width: 300px;
 }
+
 ol.teamList {
   list-style: decimal inside;
   padding: 0;
 }
+
 ol.teamList li {
   background: white;
   margin: 5px 0;
@@ -26,6 +31,7 @@ ol.teamList li {
   border: 1px solid #ccc;
   cursor: move;
 }
+
 button {
   margin-top: 10px;
 }
