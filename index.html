@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>NBA Bracket Maker</title>
+  <title>NBA Team Rankings</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>NBA Bracket Maker</h1>
+  <h1>NBA Team Rankings</h1>
   <section id="regularSeason">
     <h2>Regular Season Ranking</h2>
-    <p>Drag and drop teams to rank them for the season.</p>
-    <ol id="teamList"></ol>
-    <button id="saveSeason">Save Ranking</button>
-  </section>
-  <section id="playoffs">
-    <h2>Playoffs Bracket</h2>
-    <div class="bracket">
-      <div id="round1" class="round"><h3>Round 1</h3></div>
-      <div id="round2" class="round"><h3>Round 2</h3></div>
-      <div id="round3" class="round"><h3>Conference Finals</h3></div>
-      <div id="round4" class="round"><h3>Finals</h3></div>
+    <p>Drag and drop teams within each conference to set the order 1–15.</p>
+    <div id="conferences">
+      <div class="conference">
+        <h3>Eastern Conference</h3>
+        <ol id="eastList" class="teamList"></ol>
+      </div>
+      <div class="conference">
+        <h3>Western Conference</h3>
+        <ol id="westList" class="teamList"></ol>
+      </div>
     </div>
+    <button id="saveSeason">Save Rankings</button>
   </section>
   <script src="script.js"></script>
 </body>

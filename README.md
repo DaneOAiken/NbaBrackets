@@ -1,8 +1,7 @@
 # NbaBrackets
 
-This project provides a simple website for creating NBA team brackets. It lets you:
+This project provides a simple website for ranking NBA teams in each conference.
 
-- Rank all 30 teams for the regular season by dragging them into order.
-- Pick winners through the playoff rounds until a champion is decided.
+You can drag and drop the teams within the Eastern and Western conference lists to rank them from 1–15. Rankings are saved to `localStorage` so they persist across visits.
 
-To use the site, open `index.html` in a web browser. Rankings are saved to `localStorage` so they persist across visits.
+Open `index.html` in a web browser to try it out.

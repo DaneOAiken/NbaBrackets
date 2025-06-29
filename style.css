@@ -6,13 +6,20 @@ body {
 h1 {
   text-align: center;
 }
-ol#teamList {
+#conferences {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.conference {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+ol.teamList {
   list-style: decimal inside;
   padding: 0;
-  max-width: 300px;
-  margin: auto;
 }
-ol#teamList li {
+ol.teamList li {
   background: white;
   margin: 5px 0;
   padding: 5px 10px;
@@ -21,31 +28,4 @@ ol#teamList li {
 }
 button {
   margin-top: 10px;
-}
-.bracket {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.round {
-  min-width: 200px;
-}
-.round h3 {
-  text-align: center;
-}
-.match {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 0;
-}
-.match button {
-  margin: 2px 0;
-  padding: 6px;
-  background: #fff;
-  border: 1px solid #666;
-  cursor: pointer;
-}
-.match button:disabled {
-  background: #eee;
-  cursor: default;
 }
